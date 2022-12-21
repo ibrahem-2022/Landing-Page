@@ -32,14 +32,3 @@ window.onscroll = function() {
 
 
 
-
-
-function scroll() {
-  let navbarSections = document.querySelectorAll("li");
-  for (let x = 0; x < navbarSections.length; x++) {
-      navbarSections[x].addEventListener("click", function () {
-          sections[x].scrollIntoView({ behavior: "mooth" });
-      });
-  }
-}
-
