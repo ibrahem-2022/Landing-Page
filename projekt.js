@@ -35,17 +35,3 @@ window.onscroll = function() {
 
 
 
-
-
-function scrollEvent(no) {
-    let section = document.getElementById('section' + no);
-    let position = section.offsetTop;
-    event.preventDefault();
-    window.scrollTo({
-        left: 0,
-        top: position,
-        behavior: 'smooth'
-    })
-}
-
-
